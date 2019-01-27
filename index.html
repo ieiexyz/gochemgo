@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>GoChemGo Scan Test_Edit0117</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <head>
+    <meta charset="utf-8" />
+
+    <title>index</title>
+    <meta name="description" content="" />
+    <meta name="author" content="Christoph Oberhofer" />
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; user-scalable=no" />
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="device-mockups/device-mockups.min.css">
+
+    <!-- Custom styles for this template -->
+    <link href="css/new-age.min.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+  
+    <header class="masthead">
+        <div class="container h-100">
+            <div class="row h-100">
+                <div class="col-lg-3 my-auto">
+                    <div class="header-content mx-auto">
+                        <h1 class="mb-5"><strong>GoChemGo Scan Tool</strong></h1>
+                        <!-- <a href="#download" class="btn btn-outline btn-xl js-scroll-trigger">Start Now for Free!</a> -->
+                    </div>
+                </div>
+              <div class="col-lg-3 my-auto"> 
+              <p>請至賣場，挑熱銷居家清潔用品類(如威猛先生、妙管家、橘子工坊、美則Method、柔軟熊、3M)，並掃描其商品條碼，若掃描後出現之數字，與實體條碼號一致，即可按下送出鍵，若不一致，請再點選按鈕重新掃描。
+              </p>  
+              </div>  
+              <div class="col-lg-3 my-auto">
+                    <div class="device-container">
+                        <div class="controls">
+                                <!DOCTYPE html> 
+                                <html lang="en">
+<section  id="container" class="container">
+
+  <h3>請掃描居家清潔用品類商品barcode條碼</h3>
+  <!--測試加入產品類別-->           
+   <span>產品類別</span>
+  <!-- 六角學院code -->  
+ <div class="row">
+ <div class="col-lg-6"> 
+ <div class="input-group">
+  <select class="form-control" id="product-type">
+      <option selected>居家清潔用品</option>
+      <option>化妝保養品</option>
+      <option>個人清潔用品</option>
+    </select>
+  <br></br>
+   </div>
+   </div>
+   </div>
+                 
+ <div class="row">
+  <div class="col-lg-6">
+    <div class="input-group">
+      <input id="scanner_input" class="form-control" placeholder="點右側條碼按鈕開始掃描..." type="text" />
+      <span class="input-group-btn"> 
+				<button class="btn btn-default" type="button" data-toggle="modal" data-target="#livestream_scanner">
+					<i class="fa fa-barcode"></i>
+				</button> 
+			</span>
+    </div>
+    <!-- /input-group -->
+  </div>
+  <!-- /.col-lg-6 -->
+</div>
+<button class="btn btn-default" type="button" id="send-data">
+送出</button>
+</div>
+<!--顯示總數 -->                  
+
+累計掃描總數 : <br><p class='result'></p>
+
+</section>
+<!-- /.row -->
+ <div class="modal" id="livestream_scanner">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+        <h4 class="modal-title">Barcode Scanner</h4>
+      </div>
+      <div class="modal-body" style="position: static">
+        <div id="interactive" class="viewport"></div>
+        <div class="error"></div>
+      </div>
+      <div class="modal-footer">
+        <label class="btn btn-default pull-left">
+					<i class="fa fa-camera"></i> Use camera app
+					<input type="file" accept="image/*;capture=camera" capture="camera" class="hidden" />
+				</label>
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+    <!-- /.modal-content -->
+  </div>
+  <!-- /.modal-dialog -->
+</div> 
+ <footer>
+ <p>
+&copy; Made with ❤️ by SAHTECH
+</p>
+</footer>                                  
+<!-- /.modal -->
+  <script src='https://code.jquery.com/jquery-3.3.1.slim.min.js'></script>
+<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script>
+<script src='https://webrtc.github.io/adapter/adapter-latest.js'></script>
+<script src='https://www.gstatic.com/firebasejs/5.5.9/firebase.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/quagga/0.12.1/quagga.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
